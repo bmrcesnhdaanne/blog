@@ -82,4 +82,12 @@ footer {
 .content {
     margin: 20px;
 }
-  
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link h1:hover {
+    text-decoration: underline;
+}
