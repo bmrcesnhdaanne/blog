@@ -1,0 +1,79 @@
+/* Your existing CSS styles */
+.main-header {
+    border: 3px solid;
+    margin: 8px;
+    padding: 3px;
+    transition: border-color 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+h1 {
+    margin: 20px;
+  }
+  
+body {
+    padding-top: 100px;
+  }
+
+footer {
+    border: 3px solid;
+    margin: 8px;
+    padding: 3px;
+    text-align: center;
+}
+
+.email-icon {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+.email-icon:hover .icon-image {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+  }
+
+.icon-image {
+    width: 32x;
+    height: 32px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+#home-icon {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+  }
+
+#home-icon:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+  }
+
+/* Style the navigation links */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between list items */
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: black;
+    transition: text-decoration 0.3s ease-in-out; /* Add transition effect */
+  }
+  
+  /* Underline text on hover */
+  .main-nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
